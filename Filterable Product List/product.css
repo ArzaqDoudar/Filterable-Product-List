@@ -1,0 +1,38 @@
+:root {
+    /* --primary-color: #007bff; */
+    /* --primary-color: #c3516a; */
+
+    /* --primary-color: #76A28F; */
+    --secondary-color: #784259;
+    --info-color: #48a588;
+    --success-color: #64a128;
+    --warning-color: #fdbf72;
+    --danger-color: #ed1768;
+    --light-color: #fdf2f2;
+    /* --light-color: #f1fbfa; */
+    --dark-color: #2f0849;
+    --white-color: #fff;
+}
+
+.card {
+    width: 280px;
+    border: solid var(--dark-color) 1px;
+    border-radius: .25rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card:hover {
+
+    box-shadow: rgba(43, 43, 49, 0.2) 0px 9px 32px 0px;
+}
+
+.card-img {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
